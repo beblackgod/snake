@@ -25,10 +25,9 @@ namespace Snake
 
             // рисуем точки
             Point p1 = new Point(1, 3, '*');
-            p1.Draw();
+            Snake Snake = new Snake(p1, 4, Direction.UP);
+            Snake.Draw();
 
-            Point p2 = new Point(2, 6, '#');
-            p2.Draw();
 
             Console.ReadLine();
         
